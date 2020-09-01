@@ -1,0 +1,62 @@
+#age-verification .modal-img{
+	width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#age-verification .modal-body, #age-verification .col-12{
+	padding: 0;
+}
+
+#age-verification .modal-content{
+	border-radius: 10px;
+ 	max-width: 500px;
+  margin: 0 auto;
+}
+
+#age-verification .age-info{
+	padding: 20px;
+  text-align: center;
+}
+#age-verification .age-info h1{
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+#age-verification .age-info button{
+	width: 40%;
+}
+#age-verification .age-info button.btn-primary{
+  background-color: {{ options.primary_color }} !important;
+  border-color: {{ options.primary_color }} !important;
+}
+.disclaimer{
+	margin-top: 15px;
+  line-height: 1.2; 
+}
+#age-verification .age-info small{
+	font-weight: 300;
+  line-height: 1.1; 
+  font-size: 13px;
+}
+
+#age-verification .modal-logo{
+	max-width: 150px;
+}
+
+@media (min-width: 768px){
+  .modal-dialog {
+      max-width: 750px;
+      margin: 30px auto;
+  }
+}
+
+@media (min-width: 992px){
+  .modal-dialog {
+      max-width: 950px;
+      margin: 30px auto;
+  }
+  #age-verification .modal-img{
+		display:none;
+	}
+}

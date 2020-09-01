@@ -1,0 +1,17 @@
+# Instrucctions / Instrucciones
+
+Follow this two simple steps to add a Verification Age - Modal
+Sigue estos dos simples pasos para agregar un modal que verifica la edad.
+
+## Expample Video / Video ejemplo
+[https://recordit.co/7gmi7MjdoG](https://recordit.co/7gmi7MjdoG)
+
+
+## Instalation / Instalación
+1. Add the files in "Code Editor"
+1. Agregar los archivos en  "Editor de código".
+2. Copiar este código en "Layout"
+2. Copy and paste this code in "Layout"
+```
+{% include 'age-verification-modal' %}
+```
